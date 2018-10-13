@@ -1,0 +1,77 @@
+/* setting up colors & padding */
+
+header {
+    background-color: aquamarine;
+    padding: 50px;
+    box-sizing: border-box;
+}
+nav {
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.intro_text {
+    background-color: lightskyblue;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.home_work {
+    background-color: blueviolet;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.home_work_left {
+    background-color: blueviolet;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.home_work_right {
+    background-color: rgb(43, 226, 150);
+    padding: 50px;
+    box-sizing: border-box;
+}
+.home_work_1 {
+    background-color: rgb(215, 233, 225);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.home_work_2 {
+    background-color: rgb(11, 146, 90);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.home_work_3 {
+    background-color: rgb(238, 215, 12);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.home_work_4 {
+    background-color: rgb(113, 168, 219);
+    padding: 10px;
+    box-sizing: border-box;
+}
+footer {
+    background-color: lightgoldenrodyellow;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.footer_left {
+    background-color: rgb(233, 115, 203);
+    padding: 50px;
+    box-sizing: border-box;
+}
+.footer_right {
+    background-color: rgb(108, 172, 231);
+    padding: 50px;
+    box-sizing: border-box;
+}
+.header_title {
+    background-color: rgb(235, 231, 29);
+    padding: 50px;
+    box-sizing: border-box;
+}
+.header_text {
+    background-color: rgb(155, 85, 108);
+    padding: 50px;
+    box-sizing: border-box;
+}
