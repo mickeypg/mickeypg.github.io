@@ -8,9 +8,65 @@ body{
     margin: 0 auto;
 }
 nav {
-    padding: 20px;
     box-sizing: border-box;
 }
+.nav_setup{
+    display: flex;
+    height: 60px;
+}
+.nav_left {
+    box-sizing: border-box;
+    flex:1;
+    display: flex;
+}
+.nav_title {
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+}
+.nav_title P {
+    color: #fcfcfc;
+    padding-right: 100px;
+    padding-left: 100px;
+    align-self: center;
+    font-size: 0.85em;
+    font-weight: 300;
+}
+.nav_title P a:link {
+    color: #fcfcfc;
+    text-decoration: none;
+}
+.nav_right {
+    box-sizing: border-box;
+    flex:1;
+    display: flex;
+}
+.nav_links {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row-reverse;
+    
+}
+.nav_links ul {
+    box-sizing: border-box;
+}
+.nav_links li  {
+    display: inline;
+    margin: auto;
+    color: #fcfcfc;
+    font-size: 0.85em;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.nav_links li a:link  {
+    color: #fcfcfc;
+    text-decoration: none;
+}
+.nav_links li a:hover  {
+    color: #fcfcfc;
+    text-decoration: underline;
+}
+
 header {
     box-sizing: border-box;
     background-image: url(https://source.unsplash.com/user/christopher__burns/1600x900);
@@ -139,15 +195,20 @@ header {
     box-sizing: border-box;
     width: 50%;
     height: 50%;
-    background: url('images/75-unsplash.jpg');
+    background-image: url(https://mickeypg.github.io/images/75-unsplash.jpg);
     background-size: cover;
     display: flex;
-    opacity: 0.5;
 }
 .work_overlay {
     box-sizing: border-box;
     flex-grow: 1;
     display: flex;
+}
+.work_overlay_test {
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+    opacity: 0.5;
 }
 .work_overlay P {
     background-color:#404040;
