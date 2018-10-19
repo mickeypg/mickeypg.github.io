@@ -1,77 +1,203 @@
 /* setting up colors & padding */
-
-header {
-    background-color: aquamarine;
-    padding: 50px;
-    box-sizing: border-box;
+body{
+    background-color: #212c41;
+    font-family: 'Fira Sans', sans-serif;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 nav {
-    background-color: red;
     padding: 20px;
     box-sizing: border-box;
 }
-.intro_text {
-    background-color: lightskyblue;
-    padding: 50px;
+header {
     box-sizing: border-box;
+    background-image: url(https://source.unsplash.com/user/christopher__burns/1600x900);
 }
-.home_work {
-    background-color: blueviolet;
-    padding: 50px;
-    box-sizing: border-box;
+.header_setup{
+    display: flex;
+    height: 420px;
 }
-.home_work_left {
-    background-color: blueviolet;
-    padding: 50px;
+.header_left {
     box-sizing: border-box;
-}
-.home_work_right {
-    background-color: rgb(43, 226, 150);
-    padding: 50px;
-    box-sizing: border-box;
-}
-.home_work_1 {
-    background-color: rgb(215, 233, 225);
-    padding: 10px;
-    box-sizing: border-box;
-}
-.home_work_2 {
-    background-color: rgb(11, 146, 90);
-    padding: 10px;
-    box-sizing: border-box;
-}
-.home_work_3 {
-    background-color: rgb(238, 215, 12);
-    padding: 10px;
-    box-sizing: border-box;
-}
-.home_work_4 {
-    background-color: rgb(113, 168, 219);
-    padding: 10px;
-    box-sizing: border-box;
-}
-footer {
-    background-color: lightgoldenrodyellow;
-    padding: 50px;
-    box-sizing: border-box;
-}
-.footer_left {
-    background-color: rgb(233, 115, 203);
-    padding: 50px;
-    box-sizing: border-box;
-}
-.footer_right {
-    background-color: rgb(108, 172, 231);
-    padding: 50px;
-    box-sizing: border-box;
+    flex:1;
+    display: flex;
 }
 .header_title {
-    background-color: rgb(235, 231, 29);
-    padding: 50px;
     box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header_title h1 {
+    color: #fcfcfc;
+    padding-right: 100px;
+    padding-left: 100px;
+    align-self: center;
+    font-size: 4em;
+    font-weight: 300;
+}
+.header_right {
+    box-sizing: border-box;
+    flex:1;
+    display: flex;
 }
 .header_text {
-    background-color: rgb(155, 85, 108);
-    padding: 50px;
     box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 80%;
+}
+.header_text P {
+    background-color:#212c41;
+    color: #fcfcfc;
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.intro {
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+.intro_setup{
+    display: flex;
+    height: 380px;
+}
+.intro_text {
+    margin: auto;
+}
+.intro_text P {
+    color: #070f1f;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 2.15em;
+    margin: auto;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.work {
+    box-sizing: border-box;
+}
+.work_setup {
+    display: flex;
+    height: 400px;
+}
+.work_left {
+    box-sizing: border-box;
+    flex:1;
+    display: flex;
+}
+.work_title {
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.work_title h2 {
+    color: #FFF;
+    padding-right: 100px;
+    padding-left: 100px;
+    align-self: center;
+    font-size: 4em;
+    font-weight: 300;
+}
+.work_right {
+    box-sizing: border-box;
+    flex:1;
+    display: flex;
+    flex-flow: wrap;
+}
+.work_item_1 {
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    background-image: url(https://source.unsplash.com/user/wsanter/1600x900);
+    background-size: cover;
+    display: flex;
+}
+.work_item_2 {
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    background-image: url(https://source.unsplash.com/user/andrewtneel/1600x900);
+    background-size: cover;
+    display: flex;
+}
+.work_item_3 {
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    background-image: url(https://source.unsplash.com/user/christopher__burns/1600x900);
+    background-size: cover;
+    display: flex;
+    opacity: 0.5;
+}
+.work_item_4 {
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    background: url('images/75-unsplash.jpg');
+    background-size: cover;
+    display: flex;
+    opacity: 0.5;
+}
+.work_overlay {
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+}
+.work_overlay P {
+    background-color:#404040;
+    color: #FFF;
+    padding: 20px;
+    margin: auto;
+}
+.contact {
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+}
+.contact_setup{
+    display: flex;
+    height: 380px;
+}
+.contact_left {
+    box-sizing: border-box;
+    flex:1;
+    display: flex;
+}
+.contact_title {
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.contact_title h2 {
+    color: #212c41;
+    padding-right: 100px;
+    padding-left: 100px;
+    align-self: center;
+    font-size: 4em;
+    font-weight: 300;
+}
+.contact_right {
+    box-sizing: border-box;
+    flex:1;
+    display: flex;
+}
+.contact_text {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 80%;
+}
+.contact_text P {
+    background-color:#212c41;
+    color: #fcfcfc;
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
 }
